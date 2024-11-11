@@ -3,5 +3,8 @@
   "item.afrikelibagana.raw_pink_garnet": "Raw Pink Garnet",
 
   "block.afrikelibagana.pink_garnet_block": "Block of Pink Garnet",
-  "block.afrikelibagana.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.afrikelibagana.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.afrikelibagana.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.afrikelibagana.pink_garnet_blocks": "Pink Garnet Blocks"
 }

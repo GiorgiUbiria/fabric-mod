@@ -1,6 +1,7 @@
 package net.emiya.afrikelibagana;
 
 import net.emiya.afrikelibagana.block.ModBlocks;
+import net.emiya.afrikelibagana.item.ModItemGroups;
 import net.emiya.afrikelibagana.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,7 @@ public class Afrikelibagana implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
