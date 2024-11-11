@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "afrikeli-bagana",
+	"version": "${version}",
+	"name": "afrikeli-bagana",
+	"description": "Amatebs afrikel baganebs",
+	"authors": [
+		"Faziskado"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/GiorgiUbiria/fabric-mod-1.21-x"
+	},
+	"license": "MIT",
+	"icon": "assets/afrikeli-bagana/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.emiya.afrikelibagana.Afrikelibagana"
+		],
+		"fabric-datagen": [
+			"net.emiya.afrikelibagana.AfrikelibaganaDataGenerator"
+		],
+		"client": [
+			"net.emiya.afrikelibagana.AfrikelibaganaClient"
+		]
+	},
+	"mixins": [
+		"afrikeli-bagana.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
